@@ -33,11 +33,16 @@ a:hover{
 
 img {
     height: 200px;
+    box-shadow:
+    10.9px 10.9px 9.5px rgba(0, 0, 0, 0.044),
+    24.9px 24.9px 33px rgba(0, 0, 0, 0.056),
+    51.4px 51.4px 105.3px rgba(0, 0, 0, 0.063),
+    100px 100px 298px rgba(0, 0, 0, 0.07);
 }
 
 nav {
     padding: 16px;
-    background-color: #f2b885a8;
+    background-color: #f2b885bc;
     font-size: x-large;
 }
 
@@ -45,14 +50,14 @@ nav {
     display:grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: repeat(2,auto);
-    grid-gap:10px;
+    grid-gap:24px;
 }
 
 .recipe-grid {
     display:grid;
     grid-template-columns: 400px 1fr;
-    grid-template-rows: repeat(1,auto);
-    grid-gap:10px;
+    grid-template-rows: 1fr;
+    grid-gap:24px;
 }
 
 h1 {
@@ -84,7 +89,7 @@ table {
 }
 
 tr:nth-child(even){
-    background-color: #F2B885;
+    background-color: #f2d091bc;
 }
 
 footer {
